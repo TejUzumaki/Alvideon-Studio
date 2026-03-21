@@ -14,24 +14,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "Alvideon — Cinematic Digital Studio",
+  description:
+    "Alvideon is a premium digital studio creating cinematic websites, immersive UI, and next-gen digital experiences.",
+  keywords: [
+    "Alvideon",
+    "Cinematic UI",
+    "Portfolio",
+    "Web Development",
+    "3D Website",
+    "Digital Studio",
+  ],
+  authors: [{ name: "Alvideon Team" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/logo.svg",
   },
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "Alvideon — Cinematic Digital Studio",
+    description:
+      "Premium cinematic portfolio with immersive design and modern web technology.",
+    url: "https://your-domain.vercel.app",
+    siteName: "Alvideon",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "Alvideon — Cinematic Digital Studio",
+    description:
+      "Premium cinematic portfolio with immersive design and modern web technology.",
   },
 };
 
