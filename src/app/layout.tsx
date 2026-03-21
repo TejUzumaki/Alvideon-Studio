@@ -14,34 +14,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alvideon — Cinematic Digital Studio",
+  title: "Alvideon Studio | AI Projects & Creative Portfolio",
   description:
-    "Alvideon is a premium digital studio creating cinematic websites, immersive UI, and next-gen digital experiences.",
+    "Official Alvideon portfolio by TejUzumaki. Explore cinematic websites, AI tools, and creative development projects.",
   keywords: [
     "Alvideon",
-    "Cinematic UI",
-    "Portfolio",
-    "Web Development",
-    "3D Website",
-    "Digital Studio",
+    "Alvideon portfolio",
+    "Elvidion",
+    "TejUzumaki",
+    "AI projects",
+    "Next.js portfolio",
+    "creative developer"
   ],
-  authors: [{ name: "Alvideon Team" }],
+  authors: [{ name: "TejUzumaki" }],
   icons: {
     icon: "/logo.svg",
   },
+  verification: {
+    google: "_Br9BwP2QHOr9HCGfuHkKebVLD0IwcfHbEKfCIqLtZI",
+  },
   openGraph: {
-    title: "Alvideon — Cinematic Digital Studio",
+    title: "Alvideon Studio",
     description:
-      "Premium cinematic portfolio with immersive design and modern web technology.",
-    url: "https://your-domain.vercel.app",
+      "Cinematic portfolio featuring AI-powered projects and modern web experiences.",
+    url: "https://alvideon-portfolio.vercel.app",
     siteName: "Alvideon",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alvideon — Cinematic Digital Studio",
+    title: "Alvideon Studio",
     description:
-      "Premium cinematic portfolio with immersive design and modern web technology.",
+      "Explore modern AI-powered web projects and cinematic design.",
   },
 };
 
@@ -51,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
